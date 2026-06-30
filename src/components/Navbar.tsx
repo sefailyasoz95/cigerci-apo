@@ -41,11 +41,11 @@ export default function Navbar() {
     <header
       className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${
         scrolled
-          ? "border-b border-[var(--line)] py-3 backdrop-blur-xl"
+          ? "border-b border-[var(--line)] py-3 backdrop-blur-md"
           : "py-5"
       }`}
       style={{
-        backgroundColor: scrolled ? "color-mix(in srgb, var(--bg) 80%, transparent)" : "transparent",
+        backgroundColor: scrolled ? "color-mix(in srgb, var(--bg) 92%, transparent)" : "transparent",
       }}
     >
       <nav className="container-px flex items-center justify-between gap-4">

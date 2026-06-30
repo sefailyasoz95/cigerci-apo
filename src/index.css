@@ -134,14 +134,25 @@ html.dark {
   }
 }
 
-/* GSAP yüklenene kadar reveal öğelerini gizle (FOUC önleme) */
-.gsap-reveal {
-  visibility: hidden;
+/* GSAP yüklenene kadar reveal öğelerini gizle (FOUC önleme).
+   SADECE masaüstünde: mobilde içerik JS'e bağımlı olmadan görünür kalır,
+   böylece GSAP geç/başarısız olsa bile hero her zaman yüklenir. */
+@media (min-width: 1024px) {
+  .gsap-reveal {
+    visibility: hidden;
+  }
 }
 
 /* Reduced motion: animasyonları sıfırla */
 @media (prefers-reduced-motion: reduce) {
   .gsap-reveal {
     visibility: visible !important;
+  }
+}
+
+/* Pahalı grain dokusunu mobilde kapat (iOS'ta SVG noise filtresi çok maliyetli) */
+@media (max-width: 1023px) {
+  .grain::before {
+    display: none;
   }
 }
