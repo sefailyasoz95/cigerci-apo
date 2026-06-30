@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #fbf7f2;
+  --bg-elev: #ffffff;
+  --text: #1b1b1f;
+  --text-soft: #5b5b63;
+  --line: rgba(20, 20, 25, 0.1);
+  --glow: rgba(249, 115, 22, 0.18);
+}
+
+html.dark {
+  --bg: #0a0a0c;
+  --bg-elev: #131318;
+  --text: #f4f1ec;
+  --text-soft: #a3a0a8;
+  --line: rgba(255, 255, 255, 0.1);
+  --glow: rgba(249, 115, 22, 0.22);
+}
+
+@layer base {
+  * {
+    border-color: var(--line);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    margin: 0;
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    overflow-x: hidden;
+  }
+
+  /* Arapça için Cairo fontu */
+  html[lang="ar"] body {
+    font-family: "Cairo", "Plus Jakarta Sans", system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: "Bricolage Grotesque", system-ui, sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+
+  html[lang="ar"] h1,
+  html[lang="ar"] h2,
+  html[lang="ar"] h3,
+  html[lang="ar"] h4 {
+    font-family: "Cairo", sans-serif;
+    font-weight: 800;
+  }
+
+  ::selection {
+    background: var(--ember-500, #f97316);
+    color: #fff;
+  }
+}
+
+@layer components {
+  .container-px {
+    @apply mx-auto w-full max-w-7xl px-5 sm:px-8;
+  }
+
+  .surface {
+    background-color: var(--bg-elev);
+  }
+
+  .text-soft {
+    color: var(--text-soft);
+  }
+
+  .kicker {
+    @apply inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.25em] text-ember-500;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold transition-all duration-300 active:scale-95;
+  }
+
+  .btn-primary {
+    @apply btn bg-ember-500 text-white shadow-lg shadow-ember-500/25 hover:bg-ember-600 hover:shadow-ember-500/40;
+  }
+
+  .btn-ghost {
+    @apply btn border border-[var(--line)] text-[var(--text)] hover:border-ember-500 hover:text-ember-500;
+  }
+}
+
+@layer utilities {
+  .ember-text {
+    background: linear-gradient(120deg, #fb923c 0%, #f97316 40%, #ea580c 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .ember-glow {
+    box-shadow: 0 0 80px -20px var(--glow);
+  }
+
+  /* İnce grain dokusu */
+  .grain::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.5;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.06'/%3E%3C/svg%3E");
+  }
+
+  .mask-fade-x {
+    -webkit-mask-image: linear-gradient(
+      to right,
+      transparent,
+      black 12%,
+      black 88%,
+      transparent
+    );
+    mask-image: linear-gradient(
+      to right,
+      transparent,
+      black 12%,
+      black 88%,
+      transparent
+    );
+  }
+}
+
+/* GSAP yüklenene kadar reveal öğelerini gizle (FOUC önleme) */
+.gsap-reveal {
+  visibility: hidden;
+}
+
+/* Reduced motion: animasyonları sıfırla */
+@media (prefers-reduced-motion: reduce) {
+  .gsap-reveal {
+    visibility: visible !important;
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "brand": "Ciğerci Apo",
+  "brandFull": "Mersin-Style Ciğerci Apo",
+  "nav": {
+    "home": "Home",
+    "about": "Our Story",
+    "specialties": "Signatures",
+    "menu": "Menu",
+    "branches": "Branches",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Over embers since 1967",
+    "titleLine1": "Mersin-style",
+    "titleHighlight": "ember-grilled liver",
+    "titleLine2": "skewer masters",
+    "subtitle": "Fresh each morning, flame-kissed liver over oak embers — plus tantuni and kebab straight off the grill. The same craft in İzmir, Ankara and İstanbul.",
+    "ctaMenu": "Explore the Menu",
+    "ctaBranches": "View Branches",
+    "scroll": "Scroll"
+  },
+  "marquee": [
+    "Ember Liver Skewers",
+    "Mersin Tantuni",
+    "Adana & Urfa Kebab",
+    "Künefe",
+    "Heart Skewers",
+    "Smoke off the Grill"
+  ],
+  "about": {
+    "kicker": "Our Story",
+    "title": "One ember, one master, one tradition",
+    "p1": "Ciğerci Apo grew up beside an oak-fed fire, carrying Mersin's ember-liver tradition. Every skewer is threaded by hand, every portion cooked at the grill's exact heat.",
+    "p2": "Today the same spice, the same hands and the same ember flavor reach the table across three branches — from the home grill in İzmir to Ankara and İstanbul.",
+    "stats": {
+      "years": "Years of craft",
+      "branches": "Branches",
+      "skewers": "Hand-threaded skewers a day"
+    }
+  },
+  "specialties": {
+    "kicker": "Signatures",
+    "title": "Flavors born over the coals",
+    "subtitle": "The stars of the menu — the boldest of ember and spice.",
+    "items": {
+      "ciger": {
+        "name": "Ember Liver Skewer",
+        "desc": "Our signature, flame-kissed with house spice over oak coals."
+      },
+      "tantuni": {
+        "name": "Mersin Tantuni",
+        "desc": "Griddle-seared and wrapped with lemon and spice."
+      },
+      "adana": {
+        "name": "Adana Kebab",
+        "desc": "Hand-minced and smoky, a spiced feast off the embers."
+      },
+      "kunefe": {
+        "name": "Künefe",
+        "desc": "Shredded kadayıf, melting cheese, served ember-hot."
+      }
+    }
+  },
+  "branches": {
+    "kicker": "Our Branches",
+    "title": "Three cities, one craft",
+    "subtitle": "Pick the grill nearest you — see its menu and directions.",
+    "viewMenu": "View Menu",
+    "call": "Call",
+    "directions": "Directions",
+    "hours": "Opening Hours",
+    "onMap": "View on Map"
+  },
+  "menu": {
+    "kicker": "Menu",
+    "title": "Full Menu",
+    "subtitle": "Choose a branch and browse by category.",
+    "perPersonNote": "Prices are per person.",
+    "selectBranch": "Select a branch",
+    "viewFullMenu": "Full menu for this branch"
+  },
+  "tags": {
+    "signature": "Signature",
+    "spicy": "Spicy",
+    "new": "New"
+  },
+  "branchPage": {
+    "back": "Back to home",
+    "ourMenu": "Our Menu",
+    "map": "Open in Maps",
+    "callNow": "Call Now",
+    "notFound": "Branch not found.",
+    "otherBranches": "Other Branches"
+  },
+  "footer": {
+    "tagline": "Mersin-style ember liver in İzmir, Ankara and İstanbul.",
+    "quickLinks": "Quick Links",
+    "ourBranches": "Our Branches",
+    "contact": "Contact",
+    "rights": "All rights reserved.",
+    "madeWith": "Made beside the embers, with love."
+  },
+  "common": {
+    "currency": "₺",
+    "language": "Language",
+    "theme": "Theme",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  }
+}

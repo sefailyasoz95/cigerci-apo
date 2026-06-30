@@ -1,0 +1,110 @@
+{
+  "brand": "Ciğerci Apo",
+  "brandFull": "Mersinli Ciğerci Apo",
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hikayemiz",
+    "specialties": "İmza Lezzetler",
+    "menu": "Menü",
+    "branches": "Şubeler",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "badge": "1967'den beri közde",
+    "titleLine1": "Mersin usulü",
+    "titleHighlight": "közde ciğer",
+    "titleLine2": "şiş ustası",
+    "subtitle": "Sabah taze, közde harlanan ciğer; mangalın isiyle gelen tantuni ve kebap. İzmir, Ankara ve İstanbul'da aynı ustalık.",
+    "ctaMenu": "Menüyü Keşfet",
+    "ctaBranches": "Şubeleri Gör",
+    "scroll": "Kaydır"
+  },
+  "marquee": [
+    "Közde Ciğer Şiş",
+    "Mersin Tantuni",
+    "Adana & Urfa Kebap",
+    "Künefe",
+    "Yürek Şiş",
+    "Mangalın İsi"
+  ],
+  "about": {
+    "kicker": "Hikayemiz",
+    "title": "Bir kor, bir usta, bir gelenek",
+    "p1": "Ciğerci Apo, Mersin'in közde ciğer geleneğini meşeyle harlanan ateşin başında büyüttü. Her şiş elde diziliyor, her porsiyon mangalın tam ısısında pişiriliyor.",
+    "p2": "Bugün İzmir'deki ana ocaktan Ankara ve İstanbul'a uzanan üç şubede aynı baharat, aynı el ve aynı kor lezzeti masaya geliyor.",
+    "stats": {
+      "years": "Yıllık ustalık",
+      "branches": "Şube",
+      "skewers": "Günde elde dizilen şiş"
+    }
+  },
+  "specialties": {
+    "kicker": "İmza Lezzetler",
+    "title": "Korun üstünde doğan tatlar",
+    "subtitle": "Menünün yıldızları — közün ve baharatın en iddialı halleri.",
+    "items": {
+      "ciger": {
+        "name": "Közde Ciğer Şiş",
+        "desc": "Meşe közünde, baharatıyla harlanan imza lezzet."
+      },
+      "tantuni": {
+        "name": "Mersin Tantuni",
+        "desc": "Saç üstünde, limon ve baharatla buluşan dürüm."
+      },
+      "adana": {
+        "name": "Adana Kebap",
+        "desc": "El kıyması, közün isiyle gelen baharatlı şölen."
+      },
+      "kunefe": {
+        "name": "Künefe",
+        "desc": "Tel kadayıf, bol peynir, kor sıcağında servis."
+      }
+    }
+  },
+  "branches": {
+    "kicker": "Şubelerimiz",
+    "title": "Üç şehir, tek ustalık",
+    "subtitle": "Size en yakın ocağı seçin, menüyü ve yol tarifini görün.",
+    "viewMenu": "Menüyü Gör",
+    "call": "Ara",
+    "directions": "Yol Tarifi",
+    "hours": "Çalışma Saatleri",
+    "onMap": "Haritada Gör"
+  },
+  "menu": {
+    "kicker": "Menü",
+    "title": "Tam Menü",
+    "subtitle": "Şube seçin, kategoriye göz atın.",
+    "perPersonNote": "Fiyatlarımız kişi başıdır.",
+    "selectBranch": "Şube seçin",
+    "viewFullMenu": "Bu şubenin tam menüsü"
+  },
+  "tags": {
+    "signature": "İmza",
+    "spicy": "Acı",
+    "new": "Yeni"
+  },
+  "branchPage": {
+    "back": "Ana sayfaya dön",
+    "ourMenu": "Menümüz",
+    "map": "Haritada Aç",
+    "callNow": "Hemen Ara",
+    "notFound": "Şube bulunamadı.",
+    "otherBranches": "Diğer Şubeler"
+  },
+  "footer": {
+    "tagline": "Mersin usulü közde ciğerin İzmir, Ankara ve İstanbul'daki adresi.",
+    "quickLinks": "Hızlı Bağlantılar",
+    "ourBranches": "Şubelerimiz",
+    "contact": "İletişim",
+    "rights": "Tüm hakları saklıdır.",
+    "madeWith": "Közün başında, sevgiyle."
+  },
+  "common": {
+    "currency": "₺",
+    "language": "Dil",
+    "theme": "Tema",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat"
+  }
+}
